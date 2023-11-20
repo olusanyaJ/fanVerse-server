@@ -16,6 +16,7 @@ exports.up = function (knex) {
         .timestamp("updated_at")
         .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
       table.string("profile_image_url").defaultTo("default_profile_image.jpg");
+      table.string("password").notNullable();
     })
     .createTable("post", (table) => {
       table.increments("id").primary();
@@ -34,7 +35,7 @@ exports.up = function (knex) {
       table.integer("likes_count").notNullable().defaultTo(0);
       table.integer("comments_count").notNullable().defaultTo(0);
       table.integer("replies_count").notNullable().defaultTo(0);
-      table.timestamp("created_at").defaultTo(knex.fn.now());
+      table.timestamp("created_at");
       table
         .timestamp("updated_at")
         .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
