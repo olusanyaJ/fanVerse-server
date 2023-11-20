@@ -3,10 +3,10 @@ const knex = require("knex")(require("../knexfile"));
 const jwt = require("jsonwebtoken");
 
 /**
- * POST /auth/register
- * - creates a new user on signup
- * - Expected body: { full_name, username, email, password }
+ * GET /profile
+ * - Gets the profile of a logged in user
  */
+
 router.post("/profile", async (req, res) => {
   const authCheck = req.headers.authorization;
   if (!authCheck) {

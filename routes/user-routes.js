@@ -8,6 +8,7 @@ const knex = require("knex")(require("../knexfile"));
 router.get("/", async (_req, res) => {
   try {
     const data = await knex("user");
+    console.log(data[1].sports_type);
     res.status(200).json(data);
   } catch (err) {
     res.status(400).send(`Error retrieving Users: ${err}`);

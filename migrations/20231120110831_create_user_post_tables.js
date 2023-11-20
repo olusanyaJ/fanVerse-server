@@ -9,7 +9,8 @@ exports.up = function (knex) {
       table.string("full_name").notNullable();
       table.string("username").unique().notNullable();
       table.text("bio");
-      table.string("sports_type");
+      table.boolean("tennis").notNullable().defaultTo(false);
+      table.boolean("football").notNullable().defaultTo(false);
       table.string("email").unique().notNullable();
       table.timestamp("created_at").defaultTo(knex.fn.now());
       table
@@ -32,6 +33,7 @@ exports.up = function (knex) {
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
       table.string("content", 1000).notNullable();
+      table.string("sports_type");
       table.integer("likes_count").notNullable().defaultTo(0);
       table.integer("comments_count").notNullable().defaultTo(0);
       table.integer("replies_count").notNullable().defaultTo(0);
