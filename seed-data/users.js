@@ -8,6 +8,7 @@ module.exports = [
     email: "olumide@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ module.exports = [
     email: "oyin@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ module.exports = [
     email: "moses@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ module.exports = [
     email: "paul@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ module.exports = [
     email: "ife@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ module.exports = [
     email: "abdul@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ module.exports = [
     email: "timi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ module.exports = [
     email: "tobi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ module.exports = [
     email: "caroline@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ module.exports = [
     email: "tomi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 11,
@@ -108,6 +118,7 @@ module.exports = [
     email: "alayo@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 12,
@@ -118,6 +129,7 @@ module.exports = [
     email: "willo@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 13,
@@ -128,6 +140,7 @@ module.exports = [
     email: "dimeji@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 14,
@@ -138,6 +151,7 @@ module.exports = [
     email: "cas@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 15,
@@ -148,6 +162,7 @@ module.exports = [
     email: "niran@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 16,
@@ -158,6 +173,7 @@ module.exports = [
     email: "busola@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 17,
@@ -168,6 +184,7 @@ module.exports = [
     email: "sofia@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 18,
@@ -178,6 +195,7 @@ module.exports = [
     email: "pearl@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 19,
@@ -188,6 +206,7 @@ module.exports = [
     email: "winnie@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 20,
@@ -198,6 +217,7 @@ module.exports = [
     email: "fiyin@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 21,
@@ -208,6 +228,7 @@ module.exports = [
     email: "oyinj@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 22,
@@ -218,6 +239,7 @@ module.exports = [
     email: "bami@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 23,
@@ -228,6 +250,7 @@ module.exports = [
     email: "sheri@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 24,
@@ -238,6 +261,7 @@ module.exports = [
     email: "segun@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
   {
     id: 25,
@@ -248,5 +272,6 @@ module.exports = [
     email: "billy@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    password: "lorem ipsum",
   },
 ];
