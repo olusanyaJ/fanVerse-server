@@ -1,16 +1,24 @@
-const knex = require("knex")(require("../knexfile"));
 const router = require("express").Router();
+const knex = require("knex")(require("../knexfile"));
 
+/**
+ * GET /users
+ * - Retrieves the list of all users from the Db
+ */
 router.get("/", async (_req, res) => {
   try {
     const data = await knex("user");
+    console.log(data[1].sports_type);
     res.status(200).json(data);
   } catch (err) {
     res.status(400).send(`Error retrieving Users: ${err}`);
   }
 });
 
-// Retrieve a specific user
+/**
+ * GET /users/:id
+ * - Retrieves a specific user from the users table
+ */
 router.get("/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -24,7 +32,10 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// Delete a user
+/**
+ * GET /users/:id
+ * - Deletes a specific user from the users table
+ */
 router.delete("/:id", async (req, res) => {
   try {
     const { id } = req.params;

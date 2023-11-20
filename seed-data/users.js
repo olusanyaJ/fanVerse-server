@@ -4,7 +4,8 @@ module.exports = [
     username: "maaziMide",
     full_name: "Olumide Jegede",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "olumide@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -15,7 +16,7 @@ module.exports = [
     username: "pelumi",
     full_name: "Oyin Jegede",
     bio: "Sports enthusiast",
-    sports_type: "Tennis",
+    tennis: true,
     email: "oyin@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -26,7 +27,8 @@ module.exports = [
     username: "blackandfly",
     full_name: "Moses Maaji",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "moses@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -37,7 +39,8 @@ module.exports = [
     username: "manlikecaster",
     full_name: "Paul Semenya",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "paul@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -48,7 +51,8 @@ module.exports = [
     username: "blueflame",
     full_name: "Ifedoyin Shotunde",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "ife@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -59,7 +63,8 @@ module.exports = [
     username: "mc_fish",
     full_name: "Abdul Mahmud",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "abdul@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -70,7 +75,7 @@ module.exports = [
     username: "timigod",
     full_name: "Timi Ajiboye",
     bio: "Sports enthusiast",
-    sports_type: "Tennis",
+    tennis: true,
     email: "timi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -81,7 +86,8 @@ module.exports = [
     username: "isawtobi",
     full_name: "Tobi Isola",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "tobi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -92,7 +98,8 @@ module.exports = [
     username: "coyesanya",
     full_name: "Caroline Oyesanya",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "caroline@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -103,7 +110,8 @@ module.exports = [
     username: "Tomato",
     full_name: "Tomi Akanni",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "tomi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -114,7 +122,7 @@ module.exports = [
     username: "machado",
     full_name: "Alayo Mach",
     bio: "Sports enthusiast",
-    sports_type: "Football",
+    football: true,
     email: "alayo@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -125,7 +133,7 @@ module.exports = [
     username: "awillo",
     full_name: "Williams Ogah",
     bio: "Sports enthusiast",
-    sports_type: "Football",
+    football: true,
     email: "willo@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -136,7 +144,8 @@ module.exports = [
     username: "themaing",
     full_name: "Dimeji A",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "dimeji@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -147,7 +156,7 @@ module.exports = [
     username: "casino",
     full_name: "Chukwunyem Anu",
     bio: "Sports enthusiast",
-    sports_type: "Football",
+    football: true,
     email: "cas@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -158,7 +167,8 @@ module.exports = [
     username: "neeran",
     full_name: "Olaniran Awo",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "niran@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -169,7 +179,7 @@ module.exports = [
     username: "bundey",
     full_name: "Ifebusola Sho",
     bio: "Sports enthusiast",
-    sports_type: "Tennis",
+    tennis: true,
     email: "busola@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -180,7 +190,7 @@ module.exports = [
     username: "sophia",
     full_name: "Sofia Gag",
     bio: "Sports enthusiast",
-    sports_type: "Tennis",
+    tennis: true,
     email: "sofia@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -191,7 +201,7 @@ module.exports = [
     username: "perlita_bng",
     full_name: "Pearl Boateng",
     bio: "Sports enthusiast",
-    sports_type: "Football",
+    football: true,
     email: "pearl@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -202,7 +212,8 @@ module.exports = [
     username: "mz_winnie",
     full_name: "Winnie Ishiekwene",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "winnie@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -213,7 +224,7 @@ module.exports = [
     username: "mz_fiyin",
     full_name: "Fiyin Nasiru",
     bio: "Sports enthusiast",
-    sports_type: "Football",
+    football: true,
     email: "fiyin@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -224,7 +235,8 @@ module.exports = [
     username: "sweetnessoyin",
     full_name: "Oyin Jongbo",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "oyinj@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -235,7 +247,7 @@ module.exports = [
     username: "bamiee",
     full_name: "Ayobami H.",
     bio: "Sports enthusiast",
-    sports_type: "Tennis",
+    tennis: true,
     email: "bami@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -246,7 +258,7 @@ module.exports = [
     username: "sherrie",
     full_name: "Sherry Malz",
     bio: "Sports enthusiast",
-    sports_type: "Tennis",
+    tennis: true,
     email: "sheri@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -257,7 +269,7 @@ module.exports = [
     username: "uglyYute",
     full_name: "Segun Erin",
     bio: "Sports enthusiast",
-    sports_type: "Football",
+    football: true,
     email: "segun@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -268,7 +280,8 @@ module.exports = [
     username: "meetbilly_",
     full_name: "Billy Jegede",
     bio: "Sports enthusiast",
-    sports_type: "Tennis, Football",
+    tennis: true,
+    football: true,
     email: "billy@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
