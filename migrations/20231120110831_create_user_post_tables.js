@@ -6,11 +6,11 @@ exports.up = function (knex) {
   return knex.schema
     .createTable("user", (table) => {
       table.increments("id").primary();
-      table.string("full_name").notNullable();
+      table.string("full_name");
       table.string("username").unique().notNullable();
       table.text("bio");
-      table.boolean("tennis").notNullable().defaultTo(false);
-      table.boolean("football").notNullable().defaultTo(false);
+      table.boolean("tennis").defaultTo(false);
+      table.boolean("football").defaultTo(false);
       table.string("email").unique().notNullable();
       table.timestamp("created_at").defaultTo(knex.fn.now());
       table
@@ -32,11 +32,11 @@ exports.up = function (knex) {
         .references("user.username")
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
-      table.string("content", 1000).notNullable();
+      table.string("content", 1000);
       table.string("sports_type");
-      table.integer("likes_count").notNullable().defaultTo(0);
-      table.integer("comments_count").notNullable().defaultTo(0);
-      table.integer("replies_count").notNullable().defaultTo(0);
+      table.integer("likes_count").defaultTo(0);
+      table.integer("comments_count").defaultTo(0);
+      table.integer("replies_count").defaultTo(0);
       table.timestamp("created_at");
       table
         .timestamp("updated_at")

@@ -5,6 +5,8 @@ const jwt = require("jsonwebtoken");
 /**
  * GET /profile
  * - Gets the profile of a logged in user
+ * - If no valid JWT is provided, this route will respond with 401 Unauthorized.
+ * - Expected headers: { Authorization: "Bearer JWT_TOKEN_HERE" }
  */
 
 router.post("/profile", async (req, res) => {
@@ -21,7 +23,9 @@ router.post("/profile", async (req, res) => {
       .first();
     delete userProfile.password;
     res.status(400).send(userProfile);
-  } catch (error) {}
+  } catch (error) {
+    res.status(401).send("Invalid auth token");
+  }
 });
 
 module.exports = router;

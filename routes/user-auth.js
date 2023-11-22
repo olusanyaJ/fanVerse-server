@@ -6,13 +6,10 @@ const jwt = require("jsonwebtoken");
 /**
  * POST /auth/register
  * - creates a new user on signup
- * - Expected body: { full_name, username, email, password }
+ * - Expected body: { username, email, password }
  */
 router.post("/signup", async (req, res) => {
-  const { full_name, username, email, password } = req.body;
-  if (!full_name) {
-    return res.status().send("Enter your Full Name");
-  }
+  const { username, email, password } = req.body;
   if (!username) {
     return res.status().send("Enter your username");
   }
@@ -26,7 +23,6 @@ router.post("/signup", async (req, res) => {
   const decodedPassword = bcrypt.hashSync(password);
 
   const newUser = {
-    full_name,
     username,
     email,
     password: decodedPassword,
