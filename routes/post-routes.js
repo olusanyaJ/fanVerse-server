@@ -1,14 +1,35 @@
 const router = require("express").Router();
 const knex = require("knex")(require("../knexfile"));
 
-// get all posts
-router.get("/", async (_req, res) => {
+/**
+ * GET /posts
+ * GET /posts?sports_type="sportyType"
+ * - Retrieves the list of all posts from the Db
+ * Retrieves the list of all posts according to "sportyType" from the Db
+ */
+router.get("/", async (req, res) => {
   try {
     const data = await knex("post");
-    console.log(data);
-    res.status(200).json(data);
+
+    const sportsType = req.query.sports_type;
+    let filteredPosts;
+
+    if (sportsType === "tennis") {
+      filteredPosts = data.filter(
+        (dataObject) => dataObject.sports_type === "tennis"
+      );
+    }
+    if (sportsType === "football") {
+      filteredPosts = data.filter(
+        (dataObject) => dataObject.sports_type === "football"
+      );
+    } else {
+      filteredPosts = data;
+    }
+
+    res.status(200).json(filteredPosts);
   } catch (err) {
-    res.status(400).send(`Error retrieving Users: ${err}`);
+    res.status(400).send(`Error retrieving tennisPosts: ${err}`);
   }
 });
 
@@ -23,7 +44,10 @@ router.post("/", async (req, res) => {
   }
 });
 
-// Retrieve a specific post
+/**
+ * GET /posts/:id
+ * - Retrieves a specific post from the post table
+ */
 router.get("/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -37,7 +61,10 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// Delete a post
+/**
+ * GET /posts/:id
+ * - Deletes a specific post from the post table
+ */
 router.delete("/:id", async (req, res) => {
   try {
     const { id } = req.params;
