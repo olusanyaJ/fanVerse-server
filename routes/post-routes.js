@@ -18,8 +18,7 @@ router.get("/", async (req, res) => {
       filteredPosts = data.filter(
         (dataObject) => dataObject.sports_type === "tennis"
       );
-    }
-    if (sportsType === "football") {
+    } else if (sportsType === "football") {
       filteredPosts = data.filter(
         (dataObject) => dataObject.sports_type === "football"
       );
