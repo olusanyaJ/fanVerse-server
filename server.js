@@ -18,10 +18,6 @@ app.use("/posts", postRoutes);
 app.use("/user-auth", authRoutes);
 app.use("/profile", dashboardRoutes);
 
-app.get("/", (req, res) => {
-  res.send("Hello World, Welcome to FanVerse!");
-});
-
 app.listen(PORT, () => {
   console.log(`server running at http://localhost:${PORT}`);
 });
