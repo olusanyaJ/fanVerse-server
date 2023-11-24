@@ -9,7 +9,8 @@ module.exports = [
     created_at: "2023-11-23 09:59:36",
     content:
       "Serve it up: The art of a powerful tennis serve. Tips and tricks for acing your game!",
-    content_img: "",
+    content_img:
+      "https://images.tennis.com/image/private/t_q-best/tenniscom-prd/dfz68r21r9o8weylzbiz.jpg",
 
     sports_type: "tennis",
     likes_count: 225,
@@ -61,8 +62,9 @@ module.exports = [
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     created_at: "2023-11-22 23:37:36",
     content:
-      "Goal celebrations: What's your favorite iconic football goal celebration of all time?",
-    content_img: "",
+      "Goal celebrations: What's your favorite iconic football goal celebration of all time? For me, it no other than .... lol",
+    content_img:
+      "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltf39be054120b2e4d/60db87765543520fcbc1ed5a/8b54390c8be25340af0f74023cbde58186da623b.jpg?auto=webp&format=pjpg&width=3840&quality=60",
 
     sports_type: "football",
     likes_count: 209,
@@ -278,7 +280,8 @@ module.exports = [
     created_at: "2023-11-22 19:02:36",
     content:
       "Football rivalries: The most intense and historic clashes in the world of football.",
-    content_img: "",
+    content_img:
+      "https://media.cnn.com/api/v1/images/stellar/prod/231122093931-05-argentina-brazil-112123.jpg?c=16x9&q=h_720,w_1280,c_fill",
 
     sports_type: "football",
     likes_count: 356,
@@ -618,7 +621,7 @@ module.exports = [
     created_at: "2023-11-23 07:00:36",
     content:
       "Tennis superstitions: Do you have any pre-match rituals or lucky charms",
-    content_img: "",
+    content_img: "https://i.ytimg.com/vi/GYgy7bFVa2s/maxresdefault.jpg",
 
     sports_type: "tennis",
     likes_count: 100,
@@ -887,8 +890,8 @@ module.exports = [
       "https://images.pexels.com/photos/17547506/pexels-photo-17547506/free-photo-of-silhouette-of-a-man-in-a-cap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     created_at: "2023-11-23 15:20:36",
     content:
-      "Football and music: The anthems and songs that define the spirit of the game.",
-    content_img: "",
+      "Football and music: The anthems and songs that define the spirit of the game. Dide the undercover football artist lol",
+    content_img: "https://www.soccerbible.com/media/146585/dide-fb-min.jpg",
 
     sports_type: "football",
     likes_count: 113,
@@ -906,7 +909,8 @@ module.exports = [
     created_at: "2023-11-24 04:00:36",
     content:
       "I am Vancouvers Serena Williams, argue with your keypad &#128521;",
-    content_img: "",
+    content_img:
+      "https://hips.hearstapps.com/hmg-prod/images/serena-williams-of-usa-celebrates-her-first-round-victory-news-photo-1661965619.jpg",
 
     sports_type: "tennis",
     likes_count: 313,
