@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    username: "maaziMide",
+    username: "MaaziMide",
     full_name: "Olumide Jegede",
     bio: "Sports enthusiast",
     tennis: true,
@@ -13,7 +13,7 @@ module.exports = [
   },
   {
     id: 2,
-    username: "pelumi",
+    username: "Pelumi",
     full_name: "Oyin Jegede",
     bio: "Sports enthusiast",
     tennis: true,
@@ -24,7 +24,7 @@ module.exports = [
   },
   {
     id: 3,
-    username: "blackandfly",
+    username: "Blackandfly",
     full_name: "Moses Maaji",
     bio: "Sports enthusiast",
     tennis: true,
@@ -36,7 +36,7 @@ module.exports = [
   },
   {
     id: 4,
-    username: "manlikecaster",
+    username: "Manlikecaster",
     full_name: "Paul Semenya",
     bio: "Sports enthusiast",
     tennis: true,
@@ -48,7 +48,7 @@ module.exports = [
   },
   {
     id: 5,
-    username: "blueflame",
+    username: "Blueflame",
     full_name: "Ifedoyin Shotunde",
     bio: "Sports enthusiast",
     tennis: true,
@@ -60,7 +60,7 @@ module.exports = [
   },
   {
     id: 6,
-    username: "mc_fish",
+    username: "Mc_fish",
     full_name: "Abdul Mahmud",
     bio: "Sports enthusiast",
     tennis: true,
@@ -72,7 +72,7 @@ module.exports = [
   },
   {
     id: 7,
-    username: "timigod",
+    username: "Timigod",
     full_name: "Timi Ajiboye",
     bio: "Sports enthusiast",
     tennis: true,
@@ -83,7 +83,7 @@ module.exports = [
   },
   {
     id: 8,
-    username: "isawtobi",
+    username: "Isawtobi",
     full_name: "Tobi Isola",
     bio: "Sports enthusiast",
     tennis: true,
@@ -95,7 +95,7 @@ module.exports = [
   },
   {
     id: 9,
-    username: "coyesanya",
+    username: "Coyesanya",
     full_name: "Caroline Oyesanya",
     bio: "Sports enthusiast",
     tennis: true,
@@ -119,8 +119,8 @@ module.exports = [
   },
   {
     id: 11,
-    username: "machado",
-    full_name: "Alayo Mach",
+    username: "Machado",
+    full_name: "Alayo Machado",
     bio: "Sports enthusiast",
     football: true,
     email: "alayo@test.com",
@@ -130,7 +130,7 @@ module.exports = [
   },
   {
     id: 12,
-    username: "awillo",
+    username: "Awillo",
     full_name: "Williams Ogah",
     bio: "Sports enthusiast",
     football: true,
@@ -141,7 +141,7 @@ module.exports = [
   },
   {
     id: 13,
-    username: "themaing",
+    username: "Themaing",
     full_name: "Dimeji A",
     bio: "Sports enthusiast",
     tennis: true,
@@ -153,8 +153,8 @@ module.exports = [
   },
   {
     id: 14,
-    username: "casino",
-    full_name: "Chukwunyem Anu",
+    username: "Casino",
+    full_name: "Chukwunyem Anumundu",
     bio: "Sports enthusiast",
     football: true,
     email: "cas@test.com",
@@ -164,8 +164,8 @@ module.exports = [
   },
   {
     id: 15,
-    username: "neeran",
-    full_name: "Olaniran Awo",
+    username: "Neeran",
+    full_name: "Olaniran Awosika",
     bio: "Sports enthusiast",
     tennis: true,
     football: true,
@@ -176,8 +176,8 @@ module.exports = [
   },
   {
     id: 16,
-    username: "bundey",
-    full_name: "Ifebusola Sho",
+    username: "Ifebusola_",
+    full_name: "Ifebusola Shotunde",
     bio: "Sports enthusiast",
     tennis: true,
     email: "busola@test.com",
@@ -187,8 +187,8 @@ module.exports = [
   },
   {
     id: 17,
-    username: "sophia",
-    full_name: "Sofia Gag",
+    username: "Sophia_",
+    full_name: "Sofia Gagliano",
     bio: "Sports enthusiast",
     tennis: true,
     email: "sofia@test.com",
@@ -198,7 +198,7 @@ module.exports = [
   },
   {
     id: 18,
-    username: "perlita_bng",
+    username: "Perlita_bng",
     full_name: "Pearl Boateng",
     bio: "Sports enthusiast",
     football: true,
@@ -209,7 +209,7 @@ module.exports = [
   },
   {
     id: 19,
-    username: "mz_winnie",
+    username: "Mz_Winnie",
     full_name: "Winnie Ishiekwene",
     bio: "Sports enthusiast",
     tennis: true,
@@ -221,7 +221,7 @@ module.exports = [
   },
   {
     id: 20,
-    username: "mz_fiyin",
+    username: "Ms_Fiyin",
     full_name: "Fiyin Nasiru",
     bio: "Sports enthusiast",
     football: true,
@@ -232,7 +232,7 @@ module.exports = [
   },
   {
     id: 21,
-    username: "sweetnessoyin",
+    username: "Sweetnessoyin",
     full_name: "Oyin Jongbo",
     bio: "Sports enthusiast",
     tennis: true,
@@ -244,7 +244,7 @@ module.exports = [
   },
   {
     id: 22,
-    username: "bamiee",
+    username: "Bamiee",
     full_name: "Ayobami H.",
     bio: "Sports enthusiast",
     tennis: true,
@@ -255,8 +255,8 @@ module.exports = [
   },
   {
     id: 23,
-    username: "sherrie",
-    full_name: "Sherry Malz",
+    username: "Sherrie",
+    full_name: "Sherry Malomo",
     bio: "Sports enthusiast",
     tennis: true,
     email: "sheri@test.com",
@@ -266,7 +266,7 @@ module.exports = [
   },
   {
     id: 24,
-    username: "uglyYute",
+    username: "UglyYute",
     full_name: "Segun Erin",
     bio: "Sports enthusiast",
     football: true,
@@ -277,7 +277,7 @@ module.exports = [
   },
   {
     id: 25,
-    username: "meetbilly_",
+    username: "Meetbilly_",
     full_name: "Billy Jegede",
     bio: "Sports enthusiast",
     tennis: true,

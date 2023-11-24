@@ -16,7 +16,11 @@ exports.up = function (knex) {
       table
         .timestamp("updated_at")
         .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
-      table.string("profile_image_url").defaultTo("default_profile_image.jpg");
+      table
+        .string("profile_image_url")
+        .defaultTo(
+          "https://images.unsplash.com/photo-1613679074971-91fc27180061?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D"
+        );
       table.string("password").notNullable();
     })
     .createTable("post", (table) => {
@@ -32,7 +36,14 @@ exports.up = function (knex) {
         .references("user.username")
         .onDelete("CASCADE")
         .onUpdate("CASCADE");
+      table.string("full_name");
+      table
+        .string("profile_image_url")
+        .defaultTo(
+          "https://images.unsplash.com/photo-1613679074971-91fc27180061?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D"
+        );
       table.string("content", 1000);
+      table.string("content_img").defaultTo("");
       table.string("sports_type");
       table.integer("likes_count").defaultTo(0);
       table.integer("comments_count").defaultTo(0);
