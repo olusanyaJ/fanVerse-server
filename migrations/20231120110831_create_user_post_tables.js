@@ -48,11 +48,11 @@ exports.up = function (knex) {
       table.integer("likes_count").defaultTo(0);
       table.integer("comments_count").defaultTo(0);
       table.integer("replies_count").defaultTo(0);
-      table.timestamp("created_at");
+      table.timestamp("created_at").defaultTo(knex.fn.now());
       table
         .timestamp("updated_at")
         .defaultTo(knex.raw("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"));
-      table.string("mentions").notNullable();
+      table.string("mentions");
     });
 };
 

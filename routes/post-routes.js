@@ -32,13 +32,24 @@ router.get("/", async (req, res) => {
   }
 });
 
-// Create a new post
+/**
+ * POST /posts/
+ * - Creates a new post
+ * - Adds the new post to the list of all posts from the Db
+ * - Expected body: { user_id, user_name, content, sports_type }
+ */
 router.post("/", async (req, res) => {
   try {
-    const { user_id, user_name, content } = req.body;
-    const post = await knex("post").insert({ user_id, user_name, content });
-    res.json({ post_id: post[0], user_id, user_name, content });
+    const { user_id, user_name, content, sports_type } = req.body.data;
+    const [id] = await knex("post").insert({
+      user_id,
+      user_name,
+      content,
+      sports_type,
+    });
+    res.status(201).json({ id, user_id, user_name, content, sports_type });
   } catch (error) {
+    console.error("Error creating post:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
