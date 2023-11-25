@@ -24,12 +24,13 @@ router.post("/signup", async (req, res) => {
     return res.status(400).send("Choose a Sport");
   }
 
-  const decodedPassword = bcrypt.hashSync(password);
+  // const decodedPassword = bcrypt.hashSync(password);
 
   const newUser = {
     username,
     email,
-    password: decodedPassword,
+    // password: decodedPassword,
+    password: password,
     tennis,
     football,
   };
@@ -62,7 +63,11 @@ router.post("/login", async (req, res) => {
     return res.status(400).send("Invalid Username");
   }
 
-  const isPasswordCorrect = bcrypt.compareSync(password, user.password);
+  const isPasswordCorrect = await knex("user").where({
+    password: user.password,
+  });
+
+  // const isPasswordCorrect = bcrypt.compareSync(password, user.password);
   if (!isPasswordCorrect) {
     return res.status(400).send("Invalid password");
   }

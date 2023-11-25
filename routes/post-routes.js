@@ -72,16 +72,35 @@ router.get("/:id", async (req, res) => {
 });
 
 /**
+ * GET /posts/user/:user_id
+ * - Retrieves all the posts of a specific user_id from the post table
+ */
+router.get("/users/:user_id", async (req, res) => {
+  try {
+    const { user_id } = req.params;
+    const posts = await knex("post").where({ user_id });
+    if (!posts) {
+      return res.status(404).json({ error: "No posts found for this user" });
+    }
+    res.json(posts);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+/**
  * GET /posts/:id
  * - Deletes a specific post from the post table
  */
 router.delete("/:id", async (req, res) => {
   try {
     const { id } = req.params;
-    const deletedPost = await knex("post").where({ id }).first();
-    res.json(deletedPost);
+    await knex("post").where({ id }).del();
+
+    res.json({ message: "Post deleted successfully" });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error(error);
+    res.status(500).json({ error: "Internal Server Error" });
   }
 });
 
