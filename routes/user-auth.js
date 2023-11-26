@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 /**
- * POST /auth/register
+ * POST /user-auth/register
  * - creates a new user on signup
  * - Expected body: { username, email, password }
  */
@@ -45,7 +45,7 @@ router.post("/signup", async (req, res) => {
 });
 
 /**
- * POST /auth/login
+ * POST /user-auth/login
  * - Implements user login
  * - Expected body: { email, password }
  */

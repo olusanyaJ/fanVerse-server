@@ -91,7 +91,7 @@ module.exports = [
     email: "tobi@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    password: "loremipsum",
+    password: "tobi",
   },
   {
     id: 9,
@@ -103,7 +103,7 @@ module.exports = [
     email: "caroline@test.com",
     profile_image_url:
       "https://images.pexels.com/photos/5756481/pexels-photo-5756481.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    password: "loremipsum",
+    password: "caroline",
   },
   {
     id: 10,
